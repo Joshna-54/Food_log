@@ -7,7 +7,7 @@ from google.api_core.exceptions import ResourceExhausted
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key="AIzaSyCu54gw6x12A9sxuZCY7cnwp_QFF-4LcpE")
+genai.configure(api_key="Your API key here")
 
 # Compress image before sending to reduce input size
 def compress_image(image, max_size=(512, 512)):
